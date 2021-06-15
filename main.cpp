@@ -8,8 +8,9 @@
 
 int main() {
 
-
+	int count_a_all = 0;
 	
+
 	char text[1024];
 	std::cout << "enter row: ";
 	
@@ -23,9 +24,15 @@ int main() {
 			
 			putchar(text[i]);  
 		}
+	
+		if (text[i] == 'a')
+			count_a_all++;
+
 	}
+	std::cout << std::endl;
 
-
+	std::cout << "Numb of a-sym at all = " << count_a_all << std::endl;
+	
 
 	return 0;
 }
