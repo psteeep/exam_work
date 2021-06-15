@@ -52,7 +52,7 @@
 	    }
 
 	  ~Child() {
-		  cout << "Child constructtor" << endl;
+		  cout << "Child destructor" << endl;
 	  }
 
     };
