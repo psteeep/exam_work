@@ -15,7 +15,7 @@ int main() {
 	int size = 0;
 
 	char text[1024];
-	std::cout << "enter row: ";
+	std::cout << "enter line: ";
 	
 	for (int i = 0; i < 1024; i++)
 	{
